@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Primer commit Brajhan
+          Primer commit Brajhan  y yo
         </p>
         <a
           className="App-link"
