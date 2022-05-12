@@ -33,13 +33,14 @@ const [climatedata, setclimatedata] = useState({})
 
   },[])
 
-  console.log(climatedata);
+  
+
   return (
     <div className="App">
      
-      <video autoPlay muted loop>
+      <video autoPlay muted loop >
 
-        <source src={sky} type='video/mp4'/>
+        <source src={sky} type='video/mp4' sizes="33.3vw"/>
       </video>
      <ClimateCard city = {climatedata.name} cdata={climatedata}/> 
 

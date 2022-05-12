@@ -101,10 +101,15 @@ gap: 40px;
  }
 
  .App video {
-   position: absolute;
+   position: fixed;
    z-index: -1;
    top: 0;
    left: 0;
    width: 100%;
-   
+   height: 100vh;
+   object-fit: cover;
+ }
+
+ .h3-info {
+   text-align: left;
  }
